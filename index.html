@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CLI Example</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
+<nav class="relative bg-red-600">
+  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="relative flex h-16 items-center justify-between">
+      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+
+      </div>
+      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+
+        <div class="hidden sm:ml-6 sm:block">
+          <div class="flex space-x-4">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-white-300">Dashboard</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-white-300 hover:bg-white/5 hover:text-white">Dogs</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-white-300 hover:bg-white/5 hover:text-white">Cats</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-white-300 hover:bg-white/5 hover:text-white">Rabbits</a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+
+
+      </div>
+    </div>
+  </div>
+
+</nav>
+
+
+    
+<div class ="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">
+    <div class="md:flex">
+        <div class="md:shrink-0">
+            
+            <img
+                class="h-48 w-full object-cover md:h-full md:w-48"
+                src="/images/doggg.jpg"
+                alt"A cute dog"
+            />
+    
+        </div>
+
+        <div class="p-6">
+            <div class ="text-xs font-semibold tracking-wide text-slate-600 uppercase">Company retreats
+                <a href="#" class="mt-2 block text-lg leading-tight font-medium text-slate-900 hover:underline">
+                    Incredible accommodation for your team
+                </a>
+                <p class="mt-2 text-slate-600">
+                    Looking for a unique place to host your company's retreat? Look no further! Our selection of properties offers the perfect blend of comfort and adventure, ensuring an unforgettable experience for your team.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
