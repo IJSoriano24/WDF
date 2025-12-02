@@ -1,2 +1,39 @@
 @import "tailwindcss";
+@theme base {
+  /* Custom base styles */
+}
+@theme components {
+  /* Custom component styles */
+}
 
+@theme utilities {
+  /* Custom utility styles */
+}
+
+@theme {
+  --color-secondary-300: #ecfef2;
+  --color-secondary-400: #e5feee;
+  --color-secondary-500: #dffeea;
+  --color-secondary-600: #b2cbbb;
+  --color-secondary-700: #86988c;
+  --color-secondary-800: #59665e;
+  --color-secondary-900: #2d332f;
+}
+
+/* @layer base {
+  body {
+    @apply bg-gray-100 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-blue-500 text-white rounded;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+} */
