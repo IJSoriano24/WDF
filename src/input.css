@@ -11,6 +11,16 @@
 }
 
 @theme {
+  --color-primary-100: #e7f1fd;
+  --color-primary-200: #cee3fb;
+  --color-primary-300: #b6d6f9;
+  --color-primary-400: #9dc8f7;
+  --color-primary-500: #85baf5;
+  --color-primary-600: #6a95c4;
+  --color-primary-700: #507093;
+  --color-primary-800: #354a62;
+  --color-primary-900: #1b2531;
+
   --color-secondary-300: #ecfef2;
   --color-secondary-400: #e5feee;
   --color-secondary-500: #dffeea;
@@ -18,22 +28,16 @@
   --color-secondary-700: #86988c;
   --color-secondary-800: #59665e;
   --color-secondary-900: #2d332f;
-}
 
-/* @layer base {
-  body {
-    @apply bg-gray-100 text-gray-900;
-  }
-}
+  --color-tertiary-900: #312d2b;
+  --color-tertiary-800: #615b55;
+  --color-tertiary-700: #928880;
+  --color-tertiary-600: #c2b6aa;
+  --color-tertiary-500: #f3e3d5;
+  --color-tertiary-400: #f5e9dd;
+  --color-tertiary-300: #f8eee6;
+  --color-tertiary-200: #faf4ee;
+  --color-tertiary-100: #fdf9f7;
 
-@layer components {
-  .btn {
-    @apply px-4 py-2 bg-blue-500 text-white rounded;
-  }
+  --color-card-bg: #dfc7b3;
 }
-
-@layer utilities {
-  .text-shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  }
-} */
