@@ -50,10 +50,12 @@
     
 
     <!-- header -->
-    <div class="grid grid-cols-12 bg-primary-500 pt-24">
+    <div class="bg-primary-500 pt-24 px-4 ">
+      <div class="grid grid-cols-12 md:max-w-7xl md:mx-auto">
+
       <div class="md:col-span-6 col-span-12 p-6 text-center ">
         <h1 class="text-4xl font-bold text-slate-900 py-4">Uniscan</h1>
-        <h2 class="text-3xl font-semibold text-slate-900 py-4">
+        <h2 class="text-3xl font-semibold text-slate-900 py-4 ">
           The Ultimate College Companion App
         </h2>
         <p class="text-lg text-slate-700 pb-6">
@@ -86,6 +88,18 @@
        
       </div>
     </div>
+    </div>
+
+<div class="
+  h-32 w-full
+  bg-gradient-to-b
+  from-primary-500
+  to-tertiary-500
+  blur-4xl
+  -mt-16
+">
+</div>
+
 
     <div class="bg-tertiary-500 py-8">
       <div class="max-w-7xl mx-auto p-6">
@@ -157,187 +171,276 @@
 
     <img
       class="h-84 w-full object-cover"
-      src="/images/firstbreak.png"
+      src="/images/legasp.png"
       alt="#"
     />
 
     <!-- Carousel -->
-    <div class="max-w-7xl mx-auto p-6">
-      <div id="default-carousel" class="relative w-full" data-carousel="slide">
-        <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-base md:h-96">
-          <!-- Item 1 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="/images/carousel/doggg.jpg"
-              class="block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt="dog"
-            />
-            <div class="relative pt-6 text-center">
-              <h2 class="text-2xl font-semibold">Your Title Here</h2>
-              <p class="text-gray-700 mt-2">
-                Your descriptive text goes right under the carousel. Add
-                whatever content you want here.
-              </p>
-            </div>
-          </div>
-          <!-- Item 2 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="/docs/images/carousel/carousel-2.svg"
-              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt="..."
-            />
-          </div>
+<!-- Carousel Wrapper -->
+ <h1 class="text-3xl font-bold text-slate-900 mt-8 text-center">Features</h1>
 
-          <!-- Item 3 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="/docs/images/carousel/carousel-3.svg"
-              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt="..."
-            />
-          </div>
-          <!-- Item 4 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="/docs/images/carousel/carousel-4.svg"
-              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt="..."
-            />
-          </div>
-          <!-- Item 5 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="/docs/images/carousel/carousel-5.svg"
-              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt="..."
-            />
-          </div>
+<div class="embla relative overflow-hidden max-w-7xl mx-auto my-8">
+
+  <!-- Slides container -->
+  <div class="embla__container flex touch-pan-y select-none">
+
+    <!-- slide 1 -->
+    <div class="embla__slide min-w-full px-12">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
+        <img src="/images/carousel/doggg.jpg" class="w-full md:w-1/2 h-80 object-cover rounded-lg" />
+        <div class="md:w-1/2 text-left">
+          <h2 class="text-2xl font-semibold mb-2">Personalized Academic Dashboard</h2>
+          <hr class="border-black mb-4 w-2/3" />
+          <p class="text-gray-700 mb-4">
+            Stay completely in control of your college life with a dashboard built just for you. Your assignments, deadlines, modules, class schedule, upcoming events, and important college notifications are all in one organized, easy-to-read space. Everything updates in real time based on the college you attend, giving you a clear, stress-free view of your academic world from the moment you open the app.
+          </p>
+
         </div>
-        <!-- Slider indicators -->
-        <div
-          class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
-        >
-          <button
-            type="button"
-            class="w-3 h-3 rounded-base"
-            aria-current="true"
-            aria-label="Slide 1"
-            data-carousel-slide-to="0"
-          ></button>
-          <button
-            type="button"
-            class="w-3 h-3 rounded-base"
-            aria-current="false"
-            aria-label="Slide 2"
-            data-carousel-slide-to="1"
-          ></button>
-          <button
-            type="button"
-            class="w-3 h-3 rounded-base"
-            aria-current="false"
-            aria-label="Slide 3"
-            data-carousel-slide-to="2"
-          ></button>
-          <button
-            type="button"
-            class="w-3 h-3 rounded-base"
-            aria-current="false"
-            aria-label="Slide 4"
-            data-carousel-slide-to="3"
-          ></button>
-          <button
-            type="button"
-            class="w-3 h-3 rounded-base"
-            aria-current="false"
-            aria-label="Slide 5"
-            data-carousel-slide-to="4"
-          ></button>
-        </div>
-        <!-- Slider controls -->
-        <button
-          type="button"
-          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-          data-carousel-prev
-        >
-          <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-          >
-            <svg
-              class="w-5 h-5 text-white rtl:rotate-180"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m15 19-7-7 7-7"
-              />
-            </svg>
-            <span class="sr-only">Previous</span>
-          </span>
-        </button>
-        <button
-          type="button"
-          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-          data-carousel-next
-        >
-          <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-          >
-            <svg
-              class="w-5 h-5 text-white rtl:rotate-180"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m9 5 7 7-7 7"
-              />
-            </svg>
-            <span class="sr-only">Next</span>
-          </span>
-        </button>
       </div>
     </div>
+
+    <!-- slide 2 -->
+    <div class="embla__slide min-w-full px-12">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
+        <img src="/images/carousel/doggg.jpg" class="w-full md:w-1/2 h-80 object-cover rounded-lg" />
+        <div class="md:w-1/2 text-left">
+          <h2 class="text-2xl font-semibold mb-2">Centralized Assignment & CA Brief Manager</h2>
+          <hr class="border-black mb-4 w-2/3" />
+          <p class="text-gray-700 mb-4">Never lose track of coursework again. Teachers can upload assignments, continuous assessment briefs, resources, and due dates directly into the app, ensuring you always have the most up-to-date information. You can monitor submission progress, review requirements, and plan your workload without digging through emails or Moodle pages. It’s your all-in-one academic organiser built to make studying feel more manageable.</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- slide 3 -->
+    <div class="embla__slide min-w-full px-12">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
+        <img src="/images/carousel/doggg.jpg" class="w-full md:w-1/2 h-80 object-cover rounded-lg" />
+        <div class="md:w-1/2 text-left">
+          <h2 class="text-2xl font-semibold mb-2">AI-Powered Student Support Assistant</h2>
+          <hr class="border-black mb-4 w-2/3" />
+          <p class="text-gray-700 mb-4">Find the right person or service instantly with our intelligent AI assistant. Whether you need the campus nurse, Erasmus coordinator, academic office, mental health support, chaplaincy services, or exam help, the app connects you with the correct contact in seconds. No more searching college websites or asking around—your support system is always just one message away.</p>
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Arrows  -->
+  <button class="embla__prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white p-3 rounded-full shadow-md">
+    <svg width="24" height="24" fill="none" stroke="black" stroke-width="2">
+      <path d="M15 18l-6-6 6-6" />
+    </svg>
+  </button>
+
+  <button class="embla__next absolute right-4 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white p-3 rounded-full shadow-md">
+    <svg width="24" height="24" fill="none" stroke="black" stroke-width="2">
+      <path d="M9 6l6 6-6 6" />
+    </svg>
+  </button>
+
+  <!-- Dots  -->
+  <div class="embla__dots absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2"></div>
+
+</div>
+
+<!-- <div class="
+  h-32 w-full
+  bg-gradient-to-b
+  from-white
+  to-tertiary-500
+  blur-4xl
+  -mt-16
+">
+</div> -->
 
     <div class="bg-tertiary-500 pt-8 pb-0">
       <div class="md:flex max-w-7xl mx-auto p-6 text-center">
         <h1 class="text-lg font-bold text-slate-900 pb-8">
           Always know where you are
         </h1>
-
+      <p class="text-left mb-8">Our interactive map helps you navigate your campus with confidence. Whether you're a first-year student or exploring a new building, you can quickly locate lecture halls, classrooms, labs, and essential facilities without feeling lost or overwhelmed.</p>
         <img src="/images/phones.png" alt="#" class="mx-auto h-84 -mb-6" />
       </div>
+      
     </div>
 
     
     
 <!-- navigation map -->
-    <div class="grid-col  mx-auto p-6">
-      <h2 class="mt-2 block text-lg leading-tight font-medium text-slate-900">Navigation Map</h2>
+<div class="grid-col max-w-7xl mx-auto p-6 space-y-16">
+  <h2 class="my-8 block text-lg leading-tight font-medium text-slate-900 text-center pb-8">
+    Navigation Map
+  </h2>
+<!-- card 1 -->
+<div class="flex flex-col md:flex-row items-center gap-10 ">
+  
+  <!-- image wrapper -->
+  <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
+    <img
+      src="/images/navmap/navmap_1.svg"
+      alt="Campus navigation"
+      class="w-full h-full object-contain"
+    />
+
+    <!-- the title over the image -->
+    <h2 class="absolute inset-0 flex items-center justify-center
+               text-3xl font-semibold text-slate-900 bg-white/70
+               rounded-full px-6 py-8 text-center">
+      NAVIGATE CAMPUS LIKE A PRO
+    </h2>
+  </div>
+
+  <div class="w-full md:w-2/5">
+    <p class="text-left text-slate-700 leading-loose">
+      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
+      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+    </p>
+  </div>
+
+</div>
+
+
+
+<!-- card 2 -->
+  <div class="flex flex-col md:flex-row-reverse items-center gap-10">
+
+    <!-- image wrapper -->
+    <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
+      <img src="/images/navmap/navmap_2.svg" alt="#" class="w-full h-full object-contain" />
+
+      <!-- the title over the image -->
+      <h2 class="absolute inset-16 flex items-center justify-center 
+                 text-3xl font-semibold text-slate-900 bg-white/70
+                 rounded-full px-6 py-8 mx-auto">
+        Discover What’s Around You
+      </h2>
     </div>
+
+  <div class="w-full md:w-2/5">
+    <p class="text-left text-slate-700 leading-loose">
+      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
+      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+    </p>
+  </div>
+  </div>
+
+  <!-- card 3 -->
+  <div class="flex flex-col md:flex-row items-center gap-10 ">
+
+    <!-- image wrapper -->
+    <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
+      <img src="/images/navmap/navmap_3.svg" alt="#" class="w-full h-full object-contain" />
+
+      <!-- the title over the image -->
+      <h2 class="absolute inset-16 flex items-center justify-center 
+                 text-3xl font-semibold text-slate-900 bg-white/70
+                 rounded-full px-6 py-8 mx-auto">
+        Real-Time Indoor & Outdoor Navigation
+      </h2>
+    </div>
+
+  <div class="w-full md:w-2/5">
+    <p class="text-left text-slate-700 leading-loose">
+      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
+      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+    </p>
+  </div>
+  </div>
+
+
+<!-- card 4 -->
+  <div class="flex flex-col md:flex-row-reverse items-center gap-10 ">
+
+    <!-- image wrapper -->
+    <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
+      <img src="/images/navmap/navmap_4.svg" alt="#" class="w-full h-full object-contain" />
+
+      <!-- the title over the image -->
+      <h2 class="absolute inset-16 flex items-center justify-center 
+                 text-3xl font-semibold text-slate-900 bg-white/70
+                 rounded-full px-6 py-8 mx-auto">
+        Smart Points of Interest (POI) Discovery
+      </h2>
+    </div>
+
+  <div class="w-full md:w-2/5">
+    <p class="text-left text-slate-700 leading-loose">
+      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
+      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+    </p>
+  </div>
+  </div>
+
+  <!-- card 5 -->
+  <div class="flex flex-col md:flex-row items-center gap-10">
+
+    <!-- image wrapper -->
+    <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
+      <img src="/images/navmap/navmap_5.svg" alt="#" class="w-full h-full object-contain" />
+
+      <!-- the title over the image -->
+      <h2 class="absolute inset-16 flex items-center justify-center 
+                 text-3xl font-semibold text-slate-900 bg-white/70
+                 rounded-full px-6 py-8 mx-auto">
+        Location-Based Reminders
+      </h2>
+    </div>
+
+  <div class="w-full md:w-2/5">
+    <p class="text-left text-slate-700 leading-loose">
+      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
+      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+    </p>
+  </div>
+  </div>
+
+
+<!-- card 6 -->
+  <div class="flex flex-col md:flex-row-reverse items-center gap-10">
+
+    <!-- image wrapper -->
+    <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
+      <img src="/images/navmap/navmap_6.svg" alt="#" class="w-full h-full object-contain rounded-lg" />
+
+      <!-- the title over the image -->
+      <h2 class="absolute inset-16 flex items-center justify-center 
+                 text-3xl font-semibold text-slate-900 bg-white/70
+                 rounded-full px-6 py-8 mx-auto">
+        Accessibility-Friendly Routing
+      </h2>
+    </div>
+
+  <div class="w-full md:w-2/5">
+    <p class="text-left text-slate-700 leading-loose">
+      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
+      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+    </p>
+  </div>
+  </div>
+
+</div>
+
+
+<!-- <div class="
+  h-32 w-full
+  bg-gradient-to-b
+  from-white
+  to-primary-500
+  blur-4xl
+  -mt-16
+">
+</div> -->
 
     <!-- faq section -->
 
-    <div class="bg-primary-500 pb-8">
-      <h1 class="text-center pb-8 text-2xl font-semibold text-white pt-8">FAQ</h1>
+    <div class="bg-primary-500">
+      <h1 class="text-3xl font-bold text-slate-900 my-8 text-white text-center">FAQ</h1>
       <div class="space-y-8">
         
+
+
         <!-- card 1 -->
          
         <div class="md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8">
@@ -380,6 +483,8 @@
             </p>
           </div>
         </div>
+
+
 
         <!-- card 3 -->
         <div class="md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8">
@@ -424,6 +529,7 @@
             </p>
           </div>
         </div>
+        
       </div>
       <img
       class="h-84 w-full object-cover "
@@ -431,5 +537,51 @@
       alt="#"
     />
     
+<script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+
+<script>
+  const emblaNode = document.querySelector('.embla')
+  const viewport = emblaNode
+  const dotsContainer = emblaNode.querySelector('.embla__dots')
+  const prevBtn = emblaNode.querySelector('.embla__prev')
+  const nextBtn = emblaNode.querySelector('.embla__next')
+
+  const embla = EmblaCarousel(viewport, { loop: true })
+
+  // Create dots
+  const createDots = () => {
+    const slidesCount = embla.slideNodes().length
+    const dots = []
+
+    for (let i = 0; i < slidesCount; i++) {
+      const dot = document.createElement('button')
+      dot.className =
+        'w-3 h-3 rounded-full bg-white/70 hover:bg-white transition'
+      dotsContainer.appendChild(dot)
+      dots.push(dot)
+
+      dot.addEventListener('click', () => embla.scrollTo(i))
+    }
+
+    return dots
+  }
+
+  const dots = createDots()
+
+  const updateDots = () => {
+    const selected = embla.selectedScrollSnap()
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('bg-black', i === selected)
+      dot.classList.toggle('bg-white/70', i !== selected)
+    })
+  }
+
+  embla.on('select', updateDots)
+  updateDots()
+
+  prevBtn.addEventListener('click', embla.scrollPrev)
+  nextBtn.addEventListener('click', embla.scrollNext)
+</script>
+
   </body>
 </html>
