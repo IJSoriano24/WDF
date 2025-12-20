@@ -14,10 +14,10 @@
 
   <body class="">
 
-    <nav class="absolute top-0 left-0 w-full z-50 ">
-      <div class="max-w-7xl mx-auto py-4 px-6">
+    <nav class="bg-transparent left-0 w-full z-50 sticky top-0">
+      <div class="max-w-7xl mx-auto px-6 py-4">
         <div
-          class="flex items-center justify-between bg-white/20 backdrop-blur-xl px-6 py-3 rounded-full shadow-lg"
+          class="flex items-center justify-between bg-white/20 backdrop-blur-xl px-6 py-3 rounded-full shadow-lg "
         >
           <!-- Logo -->
           <div class="flex items-center">
@@ -38,7 +38,7 @@
             <a href="#" class="font-medium">Log in</a>
             <a
               href="#"
-              class="px-5 py-2 rounded-full bg-green-200 font-medium"
+              class="px-6 py-2 rounded-full bg-secondary-500 font-medium hover:bg-secondary-600 transition"
             >
               Sign up
             </a>
@@ -50,39 +50,41 @@
     
 
     <!-- header -->
-    <div class="bg-primary-500 pt-24 px-4 ">
+    <div class="bg-radial from-primary-100 from-10% to-primary-500 p-8 md:p-16">
       <div class="grid grid-cols-12 md:max-w-7xl md:mx-auto">
 
-      <div class="md:col-span-6 col-span-12 p-6 text-center ">
-        <h1 class="text-4xl font-bold text-slate-900 py-4">Uniscan</h1>
-        <h2 class="text-3xl font-semibold text-slate-900 py-4 ">
+      <div class="md:col-span-6 col-span-12 text-center ">
+        <h1 class="text-4xl font-bold text-slate-900 py-8">Uniscan</h1>
+        <h2 class="text-3xl font-semibold text-slate-900 pb-8">
           The Ultimate College Companion App
         </h2>
-        <p class="text-lg text-slate-700 pb-6">
+        <p class="text-lg text-slate-700 pb-8 leading-loose">
           Streamline your college life with our all-in-one app designed
           specifically for Irish students. From personalized schedules to campus
           maps, assignment tracking, and real-time notifications, we've got you
           covered.
         </p>
         
+        
+
         <img
           src="/images/appstores.svg"
           alt="#"
-          class="mx-auto h-16 mb-6">
+          class="mx-auto h-16 mb-8">
         </img>
 
 
       </div>
-      <div class="md:col-span-6 col-span-12 pb-8 text-center ">
+      <div class="md:col-span-6 col-span-12 text-center ">
             <img
             src="/images/campus.svg"
             alt="#"
-            class="md:col-span-6 col-span-12 mx-auto  h-60 ">
+            class="md:col-span-6 col-span-12 mx-auto  h-64 ">
           </img>
 
           <a
             href="#"
-            class="inline-block bg-secondary-500 text-black font-semibold px-6 py-3 mt-8 rounded-lg hover:bg-secondary-600 transition"
+            class="inline-block bg-secondary-500 text-black font-medium px-6 py-4 mt-8 rounded-full hover:bg-secondary-600 transition"
             >Get Started</a
           >
        
@@ -90,15 +92,15 @@
     </div>
     </div>
 
-<div class="
+<!-- <div class="
   h-32 w-full
   bg-gradient-to-b
-  from-primary-500
+  from-primary-300
   to-tertiary-500
   blur-4xl
   -mt-16
 ">
-</div>
+</div> -->
 
 
     <div class="bg-tertiary-500 py-8">
@@ -177,9 +179,9 @@
 
     <!-- Carousel -->
 <!-- Carousel Wrapper -->
- <h1 class="text-3xl font-bold text-slate-900 mt-8 text-center">Features</h1>
+ <h1 class="text-3xl font-bold text-slate-900 mt-8 text-center ">Features</h1>
 
-<div class="embla relative overflow-hidden max-w-7xl mx-auto my-8">
+<div class="embla relative overflow-hidden max-w-7xl mx-auto md:p-24">
 
   <!-- Slides container -->
   <div class="embla__container flex touch-pan-y select-none">
@@ -191,7 +193,7 @@
         <div class="md:w-1/2 text-left">
           <h2 class="text-2xl font-semibold mb-2">Personalized Academic Dashboard</h2>
           <hr class="border-black mb-4 w-2/3" />
-          <p class="text-gray-700 mb-4">
+          <p class="mb-4 text-slate-600 leading-loose">
             Stay completely in control of your college life with a dashboard built just for you. Your assignments, deadlines, modules, class schedule, upcoming events, and important college notifications are all in one organized, easy-to-read space. Everything updates in real time based on the college you attend, giving you a clear, stress-free view of your academic world from the moment you open the app.
           </p>
 
@@ -206,7 +208,7 @@
         <div class="md:w-1/2 text-left">
           <h2 class="text-2xl font-semibold mb-2">Centralized Assignment & CA Brief Manager</h2>
           <hr class="border-black mb-4 w-2/3" />
-          <p class="text-gray-700 mb-4">Never lose track of coursework again. Teachers can upload assignments, continuous assessment briefs, resources, and due dates directly into the app, ensuring you always have the most up-to-date information. You can monitor submission progress, review requirements, and plan your workload without digging through emails or Moodle pages. It’s your all-in-one academic organiser built to make studying feel more manageable.</p>
+          <p class="mb-4 text-slate-600 leading-loose">Never lose track of coursework again. Teachers can upload assignments, continuous assessment briefs, resources, and due dates directly into the app, ensuring you always have the most up-to-date information. You can monitor submission progress, review requirements, and plan your workload without digging through emails or Moodle pages. It’s your all-in-one academic organiser built to make studying feel more manageable.</p>
           
         </div>
       </div>
@@ -218,8 +220,8 @@
         <img src="/images/carousel/doggg.jpg" class="w-full md:w-1/2 h-80 object-cover rounded-lg" />
         <div class="md:w-1/2 text-left">
           <h2 class="text-2xl font-semibold mb-2">AI-Powered Student Support Assistant</h2>
-          <hr class="border-black mb-4 w-2/3" />
-          <p class="text-gray-700 mb-4">Find the right person or service instantly with our intelligent AI assistant. Whether you need the campus nurse, Erasmus coordinator, academic office, mental health support, chaplaincy services, or exam help, the app connects you with the correct contact in seconds. No more searching college websites or asking around—your support system is always just one message away.</p>
+          <hr class="border-black mb-4 w-2/3 " />
+          <p class="mb-4 text-slate-600 leading-loose">Find the right person or service instantly with our intelligent AI assistant. Whether you need the campus nurse, Erasmus coordinator, academic office, mental health support, chaplaincy services, or exam help, the app connects you with the correct contact in seconds. No more searching college websites or asking around—your support system is always just one message away.</p>
   
         </div>
       </div>
@@ -260,7 +262,7 @@
         <h1 class="text-lg font-bold text-slate-900 pb-8">
           Always know where you are
         </h1>
-      <p class="text-left mb-8">Our interactive map helps you navigate your campus with confidence. Whether you're a first-year student or exploring a new building, you can quickly locate lecture halls, classrooms, labs, and essential facilities without feeling lost or overwhelmed.</p>
+      <p class="text-left text-slate-600 leading-loose">Our interactive map helps you navigate your campus with confidence. Whether you're a first-year student or exploring a new building, you can quickly locate lecture halls, classrooms, labs, and essential facilities without feeling lost or overwhelmed.</p>
         <img src="/images/phones.png" alt="#" class="mx-auto h-84 -mb-6" />
       </div>
       
@@ -270,11 +272,11 @@
     
 <!-- navigation map -->
 <div class="grid-col max-w-7xl mx-auto p-6 space-y-16">
-  <h2 class="my-8 block text-lg leading-tight font-medium text-slate-900 text-center pb-8">
+  <h2 class="text-3xl font-bold text-slate-900 mb-8 text-center">
     Navigation Map
   </h2>
 <!-- card 1 -->
-<div class="flex flex-col md:flex-row items-center gap-10 ">
+<div class="flex flex-col md:flex-row items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8 ">
   
   <!-- image wrapper -->
   <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
@@ -304,7 +306,7 @@
 
 
 <!-- card 2 -->
-  <div class="flex flex-col md:flex-row-reverse items-center gap-10">
+  <div class="flex flex-col md:flex-row-reverse items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8 ">
 
     <!-- image wrapper -->
     <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
@@ -320,14 +322,12 @@
 
   <div class="w-full md:w-2/5">
     <p class="text-left text-slate-700 leading-loose">
-      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
-      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
-    </p>
+Explore nearby restaurants, cafés, pubs, shops, and student-friendly hotspots. Whether you’re looking for a quick bite or a place to unwind, the app helps you find the best local options.    </p>
   </div>
   </div>
 
   <!-- card 3 -->
-  <div class="flex flex-col md:flex-row items-center gap-10 ">
+  <div class="flex flex-col md:flex-row items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8 ">
 
     <!-- image wrapper -->
     <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
@@ -343,15 +343,14 @@
 
   <div class="w-full md:w-2/5">
     <p class="text-left text-slate-700 leading-loose">
-      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
-      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+Find your way across campus with step-by-step routes that guide you from one classroom or building to another. Perfect for new students or those navigating large or multi-campus universities.
     </p>
   </div>
   </div>
 
 
 <!-- card 4 -->
-  <div class="flex flex-col md:flex-row-reverse items-center gap-10 ">
+  <div class="flex flex-col md:flex-row-reverse items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8 ">
 
     <!-- image wrapper -->
     <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
@@ -367,14 +366,13 @@
 
   <div class="w-full md:w-2/5">
     <p class="text-left text-slate-700 leading-loose">
-      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
-      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+Quickly locate essential facilities like labs, libraries, study pods, student services, and administrative offices. The map highlights everything you need—no more wandering around or asking for directions.
     </p>
   </div>
   </div>
 
   <!-- card 5 -->
-  <div class="flex flex-col md:flex-row items-center gap-10">
+  <div class="flex flex-col md:flex-row items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8 ">
 
     <!-- image wrapper -->
     <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
@@ -390,15 +388,14 @@
 
   <div class="w-full md:w-2/5">
     <p class="text-left text-slate-700 leading-loose">
-      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
-      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+Get notified when you're near important places—like a classroom for an upcoming lecture, an advisor’s office, or an event location you added to your schedule. The app keeps you on track as you move around campus.
     </p>
   </div>
   </div>
 
 
 <!-- card 6 -->
-  <div class="flex flex-col md:flex-row-reverse items-center gap-10">
+  <div class="flex flex-col md:flex-row-reverse items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8 ">
 
     <!-- image wrapper -->
     <div class="relative w-full md:w-1/2 h-80 flex-shrink-0">
@@ -414,8 +411,7 @@
 
   <div class="w-full md:w-2/5">
     <p class="text-left text-slate-700 leading-loose">
-      Our interactive map helps you find classrooms, lecture halls, labs, and key campus buildings.
-      It’s especially helpful for new students learning their way around an unfamiliar academic environment.
+Our map system includes accessible pathways for wheelchair users or students who prefer step-free routes. This ensures every student can navigate campus smoothly, comfortably, and confidently.
     </p>
   </div>
   </div>
@@ -435,16 +431,26 @@
 
     <!-- faq section -->
 
-    <div class="bg-primary-500">
-      <h1 class="text-3xl font-bold text-slate-900 my-8 text-white text-center">FAQ</h1>
-      <div class="space-y-8">
+    <div class="bg-primary-500 relative overflow-hidden">
+
+              <img
+                class="absolute bottom-0 left-0 w-full object-cover z-0 pointer-events-none"
+                src="/images/waves.svg"
+                alt=""
+                />
+
+    <div class="relative z-10">
+      <h1 class="text-3xl font-bold text-slate-900 py-8 text-white text-center">FAQ</h1>
+      
+      
+      <div class="space-y-8 ">
         
 
 
         <!-- card 1 -->
          
-        <div class="md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8">
-          <img src="/images/Questions.svg" alt="#" class=" h-16 mb-2 pr-2 " />
+        <div class="md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8 ">
+          <img src="/images/Questions.svg" alt="#" class=" h-16 mb-2 pr-8" />
           <div
             class="text-xs font-semibold tracking-wide text-slate-600 uppercase"
           >
@@ -465,7 +471,7 @@
 
         <!-- card 2 -->
         <div class="md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8">
-          <img src="/images/College Campus Rafiki.svg" alt="#" class=" h-16 mb-2 pr-2" />
+          <img src="/images/College Campus Rafiki.svg" alt="#" class=" h-16 mb-2 pr-8" />
 
           <div
             class="text-xs font-semibold tracking-wide text-slate-600 uppercase"
@@ -489,7 +495,7 @@
         <!-- card 3 -->
         <div class="md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8">
 
-          <img src="/images/Webinar Bro.svg" alt="#" class=" h-16 mb-2 pr-2" />
+          <img src="/images/Webinar Bro.svg" alt="#" class=" h-16 mb-2 pr-8" />
 
           <div
             class="text-xs font-semibold tracking-wide text-slate-600 uppercase"
@@ -511,7 +517,7 @@
         <!-- card 4 -->
         <div class="md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8">
 
-          <img src="/images/Navigation Icon.svg" alt="#" class=" h-16 mb-2 pr-2" />
+          <img src="/images/Navigation Icon.svg" alt="#" class=" h-16 mb-2 pr-8" />
 
           <div
             class="text-xs font-semibold tracking-wide text-slate-600 uppercase"
@@ -529,13 +535,9 @@
             </p>
           </div>
         </div>
-        
+
       </div>
-      <img
-      class="h-84 w-full object-cover "
-      src="/images/waves.svg"
-      alt="#"
-    />
+      
     
 <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
 
