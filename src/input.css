@@ -1,13 +1,51 @@
 @import "tailwindcss";
-@theme base {
-  /* Custom base styles */
-}
-@theme components {
-  /* Custom component styles */
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold py-8;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold pb-8;
+  }
+
+  h2.features {
+    @apply text-2xl font-semibold pb-4;
+  }
+
+  h3 {
+    @apply text-lg font-bold text-slate-900;
+  }
+
+  hr {
+    @apply border-black w-2/3;
+  }
+
+  p {
+    @apply text-lg text-slate-600 leading-loose;
+  }
+
+  a {
+    @apply my-2 block text-lg leading-tight font-semibold text-slate-900 hover:underline;
+  }
 }
 
-@theme utilities {
-  /* Custom utility styles */
+@layer components {
+  .card {
+    @apply bg-card-bg shadow-xl rounded-xl overflow-hidden pb-8;
+  }
+
+  .faqcard {
+    @apply md:flex bg-white shadow-xl rounded-xl max-w-7xl mx-auto p-8;
+  }
+
+  .navmap {
+    @apply flex flex-col md:flex-row items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8;
+  }
+
+  .navmap_reverse {
+    @apply flex flex-col md:flex-row-reverse items-center bg-tertiary-300 border-8 border-card-bg rounded-xl shadow-xl p-8;
+  }
 }
 
 @theme {
